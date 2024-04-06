@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Matrix Mixer")
+    (date "2024-04-06")
+    (rev "1.0")
+    (company "R-mods")
+  )
+
   (lib_symbols
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
@@ -913,17 +920,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C3MixIn3" (shape input) (at 222.25 73.66 180) (fields_autoplaced)
+  (global_label "Signal3" (shape input) (at 222.25 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 07907787-07fa-4a09-8414-06d2462dd527)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 210.7377 73.66 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 212.1288 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "C2MixIn4" (shape input) (at 154.94 82.55 180) (fields_autoplaced)
+  (global_label "Signal4" (shape input) (at 154.94 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0a2dd426-0ccd-40d6-ad17-96b60840a53c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.4277 82.55 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.8188 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -948,17 +955,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C3MixIn2" (shape input) (at 222.25 64.135 180) (fields_autoplaced)
+  (global_label "Signal2" (shape input) (at 222.25 64.135 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 355ff69c-f2dd-4a2a-a5be-185bffede351)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 210.7377 64.135 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 212.1288 64.135 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "C1MixIn2" (shape input) (at 88.265 63.5 180) (fields_autoplaced)
+  (global_label "Signal2" (shape input) (at 88.265 63.5 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 370dec99-e1c7-459e-ad9e-ff433edc1bbe)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 76.7527 63.5 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.1438 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -976,10 +983,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C3MixIn1" (shape input) (at 222.25 54.61 180) (fields_autoplaced)
+  (global_label "Signal1" (shape input) (at 222.25 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4813fd54-7635-4303-ab9d-a22fab755ca9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 210.7377 54.61 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 212.1288 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -990,10 +997,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C2MixIn3" (shape input) (at 154.94 73.025 180) (fields_autoplaced)
+  (global_label "Signal3" (shape input) (at 154.94 73.025 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4e9e1731-eaad-4a3e-8d39-fb6ea02112ec)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.4277 73.025 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.8188 73.025 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1004,17 +1011,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C3MixIn4" (shape input) (at 222.25 82.55 180) (fields_autoplaced)
+  (global_label "Signal4" (shape input) (at 222.25 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6596fe84-a663-4d44-83ea-93611f1b5fc4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 210.7377 82.55 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 212.1288 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "C1MixIn4" (shape input) (at 88.265 82.55 180) (fields_autoplaced)
+  (global_label "Signal4" (shape input) (at 88.265 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 86ab31c1-dd1b-49a8-8e73-6f02d51d87b0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 76.7527 82.55 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.1438 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1025,10 +1032,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C2MixIn1" (shape input) (at 154.94 53.975 180) (fields_autoplaced)
+  (global_label "Signal1" (shape input) (at 154.94 53.975 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a2541ace-83a9-45e7-8dd1-39e09579e5f7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.4277 53.975 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.8188 53.975 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1046,10 +1053,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C2MixIn2" (shape input) (at 154.94 63.5 180) (fields_autoplaced)
+  (global_label "Signal2" (shape input) (at 154.94 63.5 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c8e82912-ae2e-472b-828d-941dd43cff57)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.4277 63.5 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.8188 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1060,17 +1067,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C1MixIn1" (shape input) (at 88.265 53.975 180) (fields_autoplaced)
+  (global_label "Signal1" (shape input) (at 88.265 53.975 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d9d7980a-e568-49b9-85ea-12b8406d49c3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 76.7527 53.975 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.1438 53.975 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "C1MixIn3" (shape input) (at 88.265 73.025 180) (fields_autoplaced)
+  (global_label "Signal3" (shape input) (at 88.265 73.025 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ec50c47e-ad09-44e8-b353-4143bd99eff3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 76.7527 73.025 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.1438 73.025 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1118,6 +1125,11 @@
           (reference "Input3") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "Input3") (unit 1)
+        )
+      )
     )
   )
 
@@ -1140,6 +1152,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "#PWR07") (unit 1)
         )
       )
@@ -1167,6 +1184,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV12") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV12") (unit 1)
         )
       )
@@ -1209,6 +1231,11 @@
           (reference "Input2") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "Input2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1233,6 +1260,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV9") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV9") (unit 1)
         )
       )
@@ -1262,6 +1294,11 @@
           (reference "R5") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R37") (unit 1)
+        )
+      )
     )
   )
 
@@ -1284,6 +1321,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -1312,6 +1354,11 @@
           (reference "#PWR09") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "#PWR0106") (unit 1)
+        )
+      )
     )
   )
 
@@ -1336,6 +1383,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "R12") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -1364,6 +1416,11 @@
           (reference "R8") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R40") (unit 1)
+        )
+      )
     )
   )
 
@@ -1390,6 +1447,11 @@
           (reference "R10") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R42") (unit 1)
+        )
+      )
     )
   )
 
@@ -1412,6 +1474,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "#PWR08") (unit 1)
         )
       )
@@ -1454,6 +1521,11 @@
           (reference "Output3") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "Output3") (unit 1)
+        )
+      )
     )
   )
 
@@ -1477,6 +1549,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1503,6 +1580,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "R11") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1532,6 +1614,11 @@
           (reference "RV6") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "RV6") (unit 1)
+        )
+      )
     )
   )
 
@@ -1554,6 +1641,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "#PWR06") (unit 1)
         )
       )
@@ -1583,6 +1675,11 @@
           (reference "R7") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R39") (unit 1)
+        )
+      )
     )
   )
 
@@ -1607,6 +1704,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV10") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV10") (unit 1)
         )
       )
@@ -1637,6 +1739,11 @@
           (reference "C1MixSw1") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "C1MixSw1") (unit 1)
+        )
+      )
     )
   )
 
@@ -1661,6 +1768,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV5") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV5") (unit 1)
         )
       )
@@ -1703,6 +1815,11 @@
           (reference "Input4") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "Input4") (unit 1)
+        )
+      )
     )
   )
 
@@ -1742,6 +1859,11 @@
           (reference "Input1") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "Input1") (unit 1)
+        )
+      )
     )
   )
 
@@ -1766,6 +1888,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV7") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV7") (unit 1)
         )
       )
@@ -1796,6 +1923,11 @@
           (reference "C2MixSw2") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "C2MixSw2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1819,6 +1951,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -1848,6 +1985,11 @@
           (reference "RV3") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "RV3") (unit 1)
+        )
+      )
     )
   )
 
@@ -1872,6 +2014,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "R6") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -1900,6 +2047,11 @@
           (reference "R1") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R33") (unit 1)
+        )
+      )
     )
   )
 
@@ -1926,6 +2078,11 @@
           (reference "R4") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R36") (unit 1)
+        )
+      )
     )
   )
 
@@ -1949,6 +2106,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1990,6 +2152,11 @@
           (reference "Output1") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "Output1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2014,6 +2181,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV8") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV8") (unit 1)
         )
       )
@@ -2044,6 +2216,11 @@
           (reference "RV1") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "RV1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2067,6 +2244,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -2108,6 +2290,11 @@
           (reference "Output2") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "Output2") (unit 1)
+        )
+      )
     )
   )
 
@@ -2132,6 +2319,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV11") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV11") (unit 1)
         )
       )
@@ -2161,6 +2353,11 @@
           (reference "R2") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R34") (unit 1)
+        )
+      )
     )
   )
 
@@ -2184,6 +2381,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -2212,6 +2414,11 @@
           (reference "R9") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R41") (unit 1)
+        )
+      )
     )
   )
 
@@ -2236,6 +2443,11 @@
     (instances
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+          (reference "RV2") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
           (reference "RV2") (unit 1)
         )
       )
@@ -2266,6 +2478,11 @@
           (reference "C3MixSw3") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "C3MixSw3") (unit 1)
+        )
+      )
     )
   )
 
@@ -2290,6 +2507,11 @@
       (project "FrontBoard"
         (path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
           (reference "R3") (unit 1)
+        )
+      )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -2319,10 +2541,11 @@
           (reference "RV4") (unit 1)
         )
       )
+      (project "MatrixMixer"
+        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+          (reference "RV4") (unit 1)
+        )
+      )
     )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
   )
 )
