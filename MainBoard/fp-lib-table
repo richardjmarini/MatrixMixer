@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "1N5349B")(type "KiCad")(uri "${KIPRJMOD}/footprints/1N5349B.pretty")(options "")(descr ""))
+  (lib (name "TL074CN")(type "KiCad")(uri "${KIPRJMOD}/footprints/TL074CN.pretty")(options "")(descr ""))
+  (lib (name "72R020XU")(type "KiCad")(uri "${KIPRJMOD}/footprints/72R020XU.pretty")(options "")(descr ""))
+  (lib (name "TL072CN")(type "KiCad")(uri "${KIPRJMOD}/footprints/TL072CN.pretty")(options "")(descr ""))
+  (lib (name "1761681-3")(type "KiCad")(uri "${KIPRJMOD}/footprints/1761681-3.pretty")(options "")(descr ""))
+  (lib (name "TSW-116-12-T-S")(type "KiCad")(uri "${KIPRJMOD}/footprints/TSW-116-12-T-S.pretty")(options "")(descr ""))
+)
