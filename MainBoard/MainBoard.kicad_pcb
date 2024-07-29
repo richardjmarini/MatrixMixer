@@ -915,6 +915,17 @@
 			(pintype "power_in")
 			(uuid "d47a3785-98ec-4741-beb0-0cc724fb37f0")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/TL072CN.step"
+			(offset
+				(xyz -4 4 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
@@ -3295,6 +3306,7 @@
 		(property "Value" "TSW-116-12-T-S"
 			(at 11.065 3.135 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0ddcbfbe-0fdb-4d9e-8e92-a7b023b95713")
 			(effects
 				(font
@@ -3796,6 +3808,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "c8a90336-9890-4956-8af6-5af271d72974")
+		)
+		(model "${KIPRJMOD}/3dmodels/TSW-116-12-T-S.step"
+			(offset
+				(xyz 19 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 0)
+			)
 		)
 	)
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
@@ -11477,6 +11500,17 @@
 			(pinfunction "VCC+")
 			(pintype "power_in")
 			(uuid "2b2c1729-9770-4641-a041-92d28655e0e4")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TL072CN.step"
+			(offset
+				(xyz -4 4 -2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
