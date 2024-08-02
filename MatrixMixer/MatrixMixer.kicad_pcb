@@ -84,7 +84,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "04db99dc-89f7-4f47-bbb2-89ccba47c1be")
-		(at 121.098 80.99)
+		(at 123.598 78.3645)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -194,7 +194,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "107b6150-a17c-47df-a045-50056a502fb8")
-		(at 121.098 115.915)
+		(at 123.725 115.915)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "REF**"
@@ -304,7 +304,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "1822bdd6-5e08-44f5-9eb7-feaeea4c2493")
-		(at 151.638 131.376)
+		(at 154.332 131.376)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "Output3_MH"
@@ -414,7 +414,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "3ea227a2-e906-4a38-b9e7-468c5b2911a9")
-		(at 151.638 81.625)
+		(at 154.038 78.3645)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -524,7 +524,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "4d26cd03-fe04-4d1d-8798-228d1437164a")
-		(at 121.198 46.87)
+		(at 123.598 40.37)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -634,7 +634,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "5eb8b88d-372e-4c54-9a6a-5773cc1c62a2")
-		(at 151.638 46.87)
+		(at 154.038 40.37)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -744,7 +744,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "7447a904-28a4-4a0b-b0b7-619c2712278a")
-		(at 136.398 46.87)
+		(at 138.798 40.37)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -854,7 +854,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "77138286-9e24-4de3-b17c-183621f8d4c9")
-		(at 136.398 81.625)
+		(at 138.798 78.3645)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -964,7 +964,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "789296ee-fe72-4e55-a666-e305bcf35607")
-		(at 151.638 65.63)
+		(at 154.038 59.13)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -1074,7 +1074,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "90b03c73-3d6b-47a2-8c29-78830c7e4ac3")
-		(at 107.95 64.21)
+		(at 107.95 59.24)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "Input2_MH"
@@ -1184,7 +1184,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "94bf0648-5417-46a9-9820-cce98df5fb10")
-		(at 107.95 45.45)
+		(at 107.95 40.48)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "Input1_MH"
@@ -1290,11 +1290,22 @@
 			(layers "*.Cu" "*.Mask")
 			(uuid "08e2df21-6d89-4863-972a-059bc44cfa0f")
 		)
+		(model "${KIPRJMOD}/3dmodels/FrontBoard.step"
+			(offset
+				(xyz -108 39.5 -13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "979a144c-12e0-469c-abd9-d92456db309f")
-		(at 121.098 100.675)
+		(at 123.598 97.484)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -1404,7 +1415,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "9ee7cf40-9bfd-41a5-9627-857a56e5dae5")
-		(at 136.398 115.915)
+		(at 139.092 115.915)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "REF**"
@@ -1514,7 +1525,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "a7197dfa-990f-45f1-a7bb-0a72bec3e740")
-		(at 136.398 65.63)
+		(at 138.798 59.13)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -1624,7 +1635,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "bc861110-e89e-42f0-83cf-51513a47ec3d")
-		(at 136.398 101.31)
+		(at 138.798 97.484)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -1734,7 +1745,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "ca99c387-5503-4a16-8c2b-51eb9de89aa8")
-		(at 136.398 131.376)
+		(at 139.092 131.376)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "Output2_MH"
@@ -1844,7 +1855,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "cf50b175-d8da-45df-a4ba-394d516f6c10")
-		(at 121.098 65.63)
+		(at 123.598 59.13)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -1954,7 +1965,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "cf8f8f5e-943b-46ed-a102-e77140026a74")
-		(at 151.638 115.915)
+		(at 154.332 115.915)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "REF**"
@@ -2064,7 +2075,7 @@
 	(footprint "MountingHole:MountingHole_6.5mm"
 		(layer "F.Cu")
 		(uuid "d2befb02-4713-42e2-9c9c-28091146d8cc")
-		(at 151.638 101.31)
+		(at 154.038 97.484)
 		(descr "Mounting Hole 6.5mm, no annular")
 		(tags "mounting hole 6.5mm no annular")
 		(property "Reference" "REF**"
@@ -2174,7 +2185,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "e3495393-eff2-474c-a3d1-69d7507242c2")
-		(at 107.95 99.255)
+		(at 107.95 97.594)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "Input4_MH"
@@ -2284,7 +2295,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "fb7d1358-7785-4304-b5b3-f958ea86808c")
-		(at 107.95 79.57)
+		(at 107.95 78.4745)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "Input3_MH"
@@ -2394,7 +2405,7 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6"
 		(layer "F.Cu")
 		(uuid "ffb3e322-6386-4539-b9fb-b7b15e411a5f")
-		(at 121.098 131.376)
+		(at 123.852 131.376)
 		(descr "Mounting Hole 6.4mm, no annular, M6")
 		(tags "mounting hole 6.4mm no annular m6")
 		(property "Reference" "Ouput1_MH"
