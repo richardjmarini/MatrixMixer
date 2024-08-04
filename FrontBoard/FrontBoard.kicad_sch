@@ -6020,6 +6020,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6088,7 +6094,7 @@
 			)
 			(project "MatrixMixer"
 				(path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
-					(reference "#PWR01")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -8392,6 +8398,12 @@
 		(instances
 			(project "FrontBoard"
 				(path "/02d4bc24-1225-40c0-95c1-5288e4ff3c92"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05/03943df6-cee7-4da8-a9ca-96454795e8ee"
 					(reference "#PWR06")
 					(unit 1)
 				)

@@ -1,55 +1,95 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 40dc4db1-ad9a-4823-ac87-a375fdecfe05)
-
-  (paper "A4")
-
-  (title_block
-    (title "Matrix Mixer")
-    (date "2024-04-06")
-    (rev "1.0")
-    (company "R-mods")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 17.145 47.625) (size 122.555 89.535) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 03943df6-cee7-4da8-a9ca-96454795e8ee)
-    (property "Sheetname" "FrontBoard" (at 17.145 46.9134 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "../FrontBoard/FrontBoard.kicad_sch" (at 17.145 137.7446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "MatrixMixer"
-        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 148.59 47.625) (size 126.365 90.17) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 58d1a9aa-7181-4935-94eb-e9f97eb4a32e)
-    (property "Sheetname" "MainBoard" (at 148.59 46.9134 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "../MainBoard/MainBoard.kicad_sch" (at 148.59 138.3796 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "MatrixMixer"
-        (path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "40dc4db1-ad9a-4823-ac87-a375fdecfe05")
+	(paper "A4")
+	(title_block
+		(title "Matrix Mixer")
+		(date "2024-04-06")
+		(rev "1.0")
+		(company "R-mods")
+	)
+	(lib_symbols)
+	(sheet
+		(at 17.145 47.625)
+		(size 122.555 89.535)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03943df6-cee7-4da8-a9ca-96454795e8ee")
+		(property "Sheetname" "FrontBoard"
+			(at 17.145 46.9134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../FrontBoard/FrontBoard.kicad_sch"
+			(at 17.145 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MatrixMixer"
+				(path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 47.625)
+		(size 126.365 90.17)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58d1a9aa-7181-4935-94eb-e9f97eb4a32e")
+		(property "Sheetname" "MainBoard"
+			(at 148.59 46.9134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../MainBoard/MainBoard.kicad_sch"
+			(at 148.59 138.3796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MatrixMixer"
+				(path "/40dc4db1-ad9a-4823-ac87-a375fdecfe05"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

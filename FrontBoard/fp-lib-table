@@ -5,4 +5,5 @@
   (lib (name "100SP1T6B11M1REH")(type "KiCad")(uri "${KIPRJMOD}/footprints/100SP1T6B11M1REH.pretty")(options "")(descr ""))
   (lib (name "ESQ-116-33-L-S")(type "KiCad")(uri "${KIPRJMOD}/footprints/ESQ-116-33-L-S.pretty")(options "")(descr ""))
   (lib (name "TL074CN")(type "KiCad")(uri "${KIPRJMOD}/footprints/TL074CN.pretty")(options "")(descr ""))
+  (lib (name "2MS1T1B1M2QES")(type "KiCad")(uri "${KIPRJMOD}/footprints/2MS1T1B1M2QES.pretty")(options "")(descr ""))
 )
