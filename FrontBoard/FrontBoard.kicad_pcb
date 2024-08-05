@@ -1577,7 +1577,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d1c09dc-5af1-43a8-b3ab-90f81666e879")
@@ -1589,7 +1589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5e29ac4-a11c-4007-9778-e74efc60d0e8")
@@ -1601,7 +1601,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d669d4ef-3b36-4124-afbe-a22803732463")
@@ -1738,7 +1738,7 @@
 			(uuid "d110a9c2-942f-41b4-b25a-7713142e8152")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.346 -0.4715 360)
+			(at 7.346 -0.4715 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f68cadb3-165f-4a5a-a607-f3b115967102")
@@ -11053,7 +11053,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*4.4mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 4.4mm Capacitor")
 		(property "Reference" "C1"
-			(at -2.64 0.2175 360)
+			(at -2.64 0.2175 0)
 			(layer "F.SilkS")
 			(uuid "af7e3086-0d72-4a66-93dc-49075bd15bfe")
 			(effects
@@ -11064,7 +11064,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "4515753f-9b43-4fb4-8435-a0e1c0c1fc2c")
 			(effects
@@ -15964,7 +15964,7 @@
 		(uuid "1d423b80-a4c9-4fc4-a1ca-7c1e6eaced33")
 		(at 113.9968 157.8758)
 		(property "Reference" "J1"
-			(at 0.2794 -2.5146 360)
+			(at 0.2794 -2.5146 0)
 			(layer "B.SilkS")
 			(uuid "61b2eb94-ddb9-4474-b5bc-5571bad448ee")
 			(effects
@@ -15976,7 +15976,7 @@
 			)
 		)
 		(property "Value" "ESQ-116-33-L-S"
-			(at 10.81 -3.07 360)
+			(at 10.81 -3.07 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e5d52e8a-556f-4d55-93a4-7a20ead260da")
@@ -15989,7 +15989,7 @@
 			)
 		)
 		(property "Footprint" "ESQ-116-33-L-S:SAMTEC_ESQ-116-33-L-S"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3eed6733-375c-4c1c-ac91-fbefb8fe39b3")
@@ -16002,7 +16002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b9747ee3-de05-4239-9a98-d054ffa8b8b1")
@@ -16015,7 +16015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c82ae2c8-83d9-4821-83a4-ca2151e3ce42")
@@ -17423,6 +17423,14 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
+	(via
+		(at 147.1946 126.71)
+		(size 0.8)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(net 0)
+		(uuid "e1773b5f-2101-4334-a3a7-cdfc2e90384f")
+	)
 	(segment
 		(start 140.8018 156.7408)
 		(end 131.81067 156.7408)
@@ -17531,6 +17539,15 @@
 		(uuid "26200663-6835-425b-89d0-9a5261f30cde")
 	)
 	(via
+		(at 122.4804 139.4608)
+		(size 0.8)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "38b3e991-30ad-4735-b432-b2fa5fd38dc2")
+	)
+	(via
 		(at 158.7262 82.5648)
 		(size 0.8)
 		(drill 0.5)
@@ -17601,6 +17618,15 @@
 		(free yes)
 		(net 2)
 		(uuid "90b2c3e9-48be-4d6f-81e0-e283c5a8f6b0")
+	)
+	(via
+		(at 137.822 140.553)
+		(size 0.8)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "98448f99-bbd6-4e14-860f-2eb6a6dadca4")
 	)
 	(via
 		(at 144.4514 106.2376)
